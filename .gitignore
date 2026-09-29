@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Large Datasets & Archives (> 100MB / thousands of raw images)
+dataset/
+*.zip
+archive*/
+
+# Uploaded images (Flask temp)
+app/uploads/
+*.tmp
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+*.env
